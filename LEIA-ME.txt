@@ -1,0 +1,14 @@
+Feito no visual studio code.
+
+Se você for tentar rodar esse programa você vai precisar do pip do python (ele vem quando você instala o python) e do opencv.
+
+Para instalar o opencv é simples:
+1 - Abra seu CMD em modo de administrador
+2 - escreva "pip install opencv-python" (sem as aspas)
+3 - Espere que as instalações e as dependencias sejam instaladas.
+
+OBSERVAÇÃO:
+Nesse experimento eu utilizei um vídeo da internet para fazer os testes com o programa porque eu não tenho uma webcam, se você estiver na mesma situação que eu é só baixar o vídeo que eu deixei na pasta e baixa-la sem nenhuma alteração. Caso você queira usar uma camêra é só mudar o conteudo dentro das aspas do cv2.VideoCapture para 0.
+Ex: cap = cv2.VideoCapture(0)
+
+Feito com base nas vídeo-aulas do João Reis.
